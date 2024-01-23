@@ -56,6 +56,8 @@ img {
   display: flex;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .container {
   width: 1158px;
@@ -155,7 +157,7 @@ img {
   list-style: none;
   min-width: none;
   min-height: max-content;
-  color: var(--slate);
+  color: var(--SLATE);
   font-style: normal;
   font-size: 16px;
   font-weight: 500;
@@ -189,6 +191,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 .hero-title {
   color: var(--WHITE);
@@ -226,6 +229,8 @@ img {
 /* About section - second section */
 .about-section {
   padding: 120px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .visually-hidden {
   position: absolute;
@@ -309,6 +314,8 @@ img {
 .our-team-section {
   background-color: var(--CLOUD);
   padding: 120px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .team-list {
   display: flex;
@@ -393,6 +400,8 @@ img {
 .customers-section {
   padding-top: 120px;
   padding-bottom: 120px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .customers-section-title {
   color: #2e2f42;
@@ -447,6 +456,8 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
   padding: 100px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .footer-div {
   display: flex;
@@ -664,6 +675,12 @@ img {
 
 .modal-textarea:focus {
   border-color: #4d5ae5;
+}
+.modal-textarea::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .modal-div-checkbox {
